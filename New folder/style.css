@@ -1,0 +1,40 @@
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    font-size: x-large;
+    background-color: gold;
+    border-radius: 3cm;
+    font-style: oblique;
+    position: relative;
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+    
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: black;
+}
+.grid p{
+position: absolute;
+top: 50%;
+left: 50%;
+opacity: 0;
+
+}
+.grid:hover p{
+    opacity: 1;
+}
+body{
+    background-color: peachpuff
+}
+
+
